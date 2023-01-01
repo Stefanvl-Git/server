@@ -1,0 +1,16 @@
+capital=Frog-City
+nationBoard=/nation set board [msg]
+mapColorHexCode=f0e68c
+allies=
+enemies=
+taxpercent=false
+maxPercentTaxAmount=10000.0
+taxes=0.0
+spawnCost=10.0
+neutral=false
+uuid=ff5f00f7-b1ad-4929-b443-25e3a9d08309
+registered=1672588016270
+nationSpawn=world,153.5,73.1,68.5,23.289438,71.7628
+isPublic=false
+isOpen=false
+metadata=

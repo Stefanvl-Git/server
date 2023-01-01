@@ -1,0 +1,21 @@
+2023-01-01 20:16:47,882 [Server thread]: [Towny] Database: [Load] flatfile [Save] flatfile
+2023-01-01 20:16:47,921 [Server thread]: [Towny] Database: Loaded in 38ms.
+2023-01-01 20:16:47,921 [Server thread]: [Towny] Database: 100% of residents have stored UUIDs.
+2023-01-01 20:16:47,928 [Server thread]: [Towny] Searching for third-party plugins...
+2023-01-01 20:16:47,928 [ForkJoinPool.commonPool-worker-8]: [Towny] Cleaning up old backups...
+2023-01-01 20:16:47,930 [ForkJoinPool.commonPool-worker-8]: [Towny] Successfully cleaned backups.
+2023-01-01 20:16:47,931 [ForkJoinPool.commonPool-worker-5]: [Towny] Making backup...
+2023-01-01 20:16:47,933 [Server thread]: [Towny] Plugins found: 
+2023-01-01 20:16:47,933 [Server thread]: [Towny]   Permissions: TownyPerms, BukkitPermissions
+2023-01-01 20:16:47,933 [Server thread]: [Towny]   Add-ons: TownyChat v0.98, TownyFlight v1.8.6, PlaceholderAPI
+                           v2.11.2
+2023-01-01 20:16:47,933 [Server thread]: [Towny] Warning: No compatible Economy plugins found. Install
+                           Vault.jar or Reserve.jar with any of the supported eco
+                           systems. If you do not want an economy to be used, set
+                           using_economy: false in your Towny config.yml.
+2023-01-01 20:16:48,077 [Server thread]: [Towny] Version: 0.98.4.0 - Plugin Enabled
+2023-01-01 20:16:48,209 [ForkJoinPool.commonPool-worker-5]: [Towny] Towny flatfiles and settings successfully backed up.
+2023-01-01 20:16:49,069 [Craft Scheduler Thread - 4]: [Towny] Time until a New Day: 15 hours, 43 minutes, 11 seconds
+2023-01-01 20:16:49,070 [Craft Scheduler Thread - 7]: [Towny] Checking for updates...
+2023-01-01 20:16:49,679 [Craft Scheduler Thread - 7]: [Towny] New update available: 0.98.4.18 | Current version: 0.98.4.0
+2023-01-01 20:16:49,679 [Craft Scheduler Thread - 7]: [Towny] Download it here: https://github.com/TownyAdvanced/Towny/releases/tag/0.98.4.18

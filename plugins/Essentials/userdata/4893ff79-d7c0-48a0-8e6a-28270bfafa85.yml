@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1672601497272
+  login: 1672600614913
+money: '0'
+last-account-name: Stefanvl_
+logoutlocation:
+  world: 5c20876e-e899-4468-b9b8-7bc278b1e5e0
+  world-name: world
+  x: -609.5523331700718
+  y: 115.81512324435319
+  z: 1874.341115599691
+  yaw: 18.7056884765625
+  pitch: 41.73614501953125

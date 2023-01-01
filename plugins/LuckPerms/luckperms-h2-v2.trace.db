@@ -1,0 +1,51 @@
+2023-01-01 19:04:52 database: flush
+org.h2.message.DbException: Out of memory. [90108-214]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:389)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:125)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:3318)
+	at org.h2.mvstore.MVStore.writeInBackground(MVStore.java:3254)
+	at org.h2.mvstore.MVStore$BackgroundWriterThread.run(MVStore.java:3775)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Out of memory. [90108-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:678)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	... 6 more
+Caused by: java.lang.OutOfMemoryError: Java heap space
+2023-01-01 19:07:40 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: Out of memory. [90108-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:678)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.engine.Database.throwLastBackgroundException(Database.java:1782)
+	at org.h2.engine.SessionLocal.close(SessionLocal.java:877)
+	at org.h2.jdbc.JdbcConnection.close(JdbcConnection.java:360)
+	at me.lucko.luckperms.common.storage.implementation.sql.connection.file.NonClosableConnection.shutdown(NonClosableConnection.java:61)
+	at me.lucko.luckperms.common.storage.implementation.sql.connection.file.FlatfileConnectionFactory.shutdown(FlatfileConnectionFactory.java:81)
+	at me.lucko.luckperms.common.storage.implementation.sql.connection.file.H2ConnectionFactory.shutdown(H2ConnectionFactory.java:43)
+	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.shutdown(SqlStorage.java:227)
+	at me.lucko.luckperms.common.storage.Storage.shutdown(Storage.java:125)
+	at me.lucko.luckperms.common.plugin.AbstractLuckPermsPlugin.disable(AbstractLuckPermsPlugin.java:278)
+	at me.lucko.luckperms.bukkit.LPBukkitBootstrap.onDisable(LPBukkitBootstrap.java:193)
+	at me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin.onDisable(BukkitLoaderPlugin.java:56)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266)
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:367)
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:501)
+	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:493)
+	at org.bukkit.craftbukkit.v1_19_R2.CraftServer.disablePlugins(CraftServer.java:473)
+	at net.minecraft.server.MinecraftServer.t(MinecraftServer.java:865)
+	at net.minecraft.server.dedicated.DedicatedServer.t(DedicatedServer.java:686)
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1050)
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:301)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: org.h2.message.DbException: Out of memory. [90108-214]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:389)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:125)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:3318)
+	at org.h2.mvstore.MVStore.writeInBackground(MVStore.java:3254)
+	at org.h2.mvstore.MVStore$BackgroundWriterThread.run(MVStore.java:3775)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Out of memory. [90108-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:678)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	... 6 more
+Caused by: java.lang.OutOfMemoryError: Java heap space

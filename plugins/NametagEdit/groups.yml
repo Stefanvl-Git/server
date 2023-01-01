@@ -1,0 +1,11 @@
+Groups:
+  owner:
+    Permission: nte.owner
+    Prefix: '&7[&aOwner&7] '
+    Suffix: '&f'
+    SortPriority: 1
+  dev:
+    Permission: nte.dev
+    Prefix: '&7[&5Dev&7] '
+    Suffix: '&f'
+    SortPriority: 2
